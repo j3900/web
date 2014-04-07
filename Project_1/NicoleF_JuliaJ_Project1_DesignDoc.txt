@@ -1,0 +1,23 @@
+Nicole Felch and Julia Jacobs
+
+Mission Statement:
+
+Major Design Points:
+
+Required Elements:
+	Style sheet:
+		Our site contains a single style sheet that uses all kinds of selectors. Most importantly, the nav and list within’s selectors, which style the navigation bar, the text-post and image-post classes which style text posts and image posts differently, for example, they have different borders.
+
+	Navigation:
+		Our site uses a left hand sidebar navigation, with links to Home and 		Feedback pages. The pencil in the navigation bar also serves as a link to the home 	page.
+	
+	Structured layout:
+		Our layout is the same for every page: a purple side navigation bar on the left and white blocks of content in the main area which is a light gray. The larger content area scrolls while the navigation stays put.
+
+	JavaScript:
+		We intend to use JavaScript in our Feedback page in order for the user to 	send us feedback by email easily
+	
+	Images:
+		This site will use lots of images as filler for our “posts”. Right now there is just one cat. Another image we use is the pencil that serves as a logo for the site. Bothe images obtained from http://www.freestockphotos.biz/
+	
+	Links:
