@@ -1,12 +1,12 @@
 html {
-	background-color: #EEEEEE;
+	background-color: #F5F3EE;
 }
 nav {
-	background-color: #8B8B8F;
+	background-color: #7D1935;
 	margin-top:-20px;
 	margin-left: -20px;
 	margin-right: 20px;
-	width: 150px;
+	width: 125px;
 	padding: 2px;
 	float: left;
 	height: 1000px;
@@ -19,35 +19,36 @@ ul {
 
 
 nav ul li{
-	color: white;
-	font-family: Monaco, Consolas, "Lucida Console", monospace;
+	color: #FFFFFF;
+	font-family: "Big Caslon", "Book Antiqua", "Palatino Linotype", Georgia, serif;
 	font-size: 25px;
+	margin-left: -18px;
 }
 a {
-	color: white;
+	color: #FFFFFF;
 	text-decoration: none;
 }
 
 .text-post {
-	background: white;
-	border: 2px dotted #C2174A;
+	background: #FFFFFF;
+	border: 3px inset #C2174A;
 	border-radius: 7px;
 	box-shadow: -4px 4px 10px -3px #6666A3;
 	opacity: .75;
-	margin-left: 200px;
-	margin-right: 50px;
+	margin-left: 175px;
+	margin-right: 100px;
 	margin-bottom: 25px;
 	padding:20px;
 }
 
 .image-post {
-	background: white;
-	border: 2px dotted #FABA2F;
+	background: #FFFFFF;
+	border: 3px inset #4A96AD;
 	border-radius: 7px;
 	box-shadow: -4px 4px 10px -3px #6666A3;
 	opacity: .75;
-	margin-left: 200px;
-	margin-right: 50px;
+	margin-left: 175px;
+	margin-right: 100px;
 	margin-bottom: 25px;
 	padding:20px;
 }
