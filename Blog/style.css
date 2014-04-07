@@ -21,7 +21,7 @@ ul {
 nav ul li{
 	color: #FFFFFF;
 	font-family: "Big Caslon", "Book Antiqua", "Palatino Linotype", Georgia, serif;
-	font-size: 25px;
+	font-size: 20px;
 	margin-left: -18px;
 }
 a {
@@ -31,7 +31,7 @@ a {
 
 .text-post {
 	background: #FFFFFF;
-	border: 3px inset #C2174A;
+	border: 2px inset #C2174A;
 	border-radius: 7px;
 	box-shadow: -4px 4px 10px -3px #6666A3;
 	opacity: .75;
@@ -43,7 +43,7 @@ a {
 
 .image-post {
 	background: #FFFFFF;
-	border: 3px inset #4A96AD;
+	border: 2px inset #4A96AD;
 	border-radius: 7px;
 	box-shadow: -4px 4px 10px -3px #6666A3;
 	opacity: .75;
