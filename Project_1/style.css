@@ -46,7 +46,6 @@ a {
 	border: 2px inset #4A96AD;
 	border-radius: 7px;
 	box-shadow: -4px 4px 10px -3px #6666A3;
-	opacity: .75;
 	margin-left: 175px;
 	margin-right: 100px;
 	margin-bottom: 25px;
@@ -56,10 +55,15 @@ a {
 .center {
 	display: block;
     margin-left: auto;
-    margin-right: auto
+    margin-right: auto;
+    text-align: center;
 }
 
 h1 {
 	border-bottom: 1px solid #AAAAAA;
+}
+
+#footer {
+	text-align: center;
 }
 
