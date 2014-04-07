@@ -1,8 +1,10 @@
 Nicole Felch and Julia Jacobs
 
 Mission Statement:
+	This is just a design of a blog for other people or ourselves to potentially use, so it is currently filled with nonsense.
 
 Major Design Points:
+	The site design consists of a consistent layout through all pages, with a purple navigation bar to the left with a few links and a logo, then the rest of the page is a scrollable area that has white rounded boxes filled with content that are surrounded by gray space.
 
 Required Elements:
 	Style sheet:
@@ -21,3 +23,4 @@ Required Elements:
 		This site will use lots of images as filler for our “posts”. Right now there is just one cat. Another image we use is the pencil that serves as a logo for the site. Bothe images obtained from http://www.freestockphotos.biz/
 	
 	Links:
+		
