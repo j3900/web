@@ -29,6 +29,10 @@ a {
 	text-decoration: none;
 }
 
+a:hover {
+	color: #DDDDDD;
+}
+
 .text-post {
 	background: #FFFFFF;
 	border: 2px inset #C2174A;
