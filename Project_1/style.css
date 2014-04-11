@@ -45,13 +45,22 @@ a:hover {
 	padding:20px;
 }
 
-.post a {
+.post span {
 	padding:20px;
 	font-size:14px;
 	color:#777777;
 }
 
-.post a:hover {
+.post span:hover {
+	color:#8E2A46;
+}
+
+#searchResult {
+	font-size:16px;
+	color:#777777;
+}
+
+#searchResult:hover {
 	color:#8E2A46;
 }
 
@@ -85,4 +94,3 @@ h1 {
 #footer {
 	text-align: center;
 }
-

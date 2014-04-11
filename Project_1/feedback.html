@@ -9,7 +9,7 @@
 
 <script>
 	function ChangeImage() {
-		var images = document.getElementsById('img');
+		var images = document.getElementsByTagName('img');
 		var image = images[1];
 		image.src="images/thanks.jpg";
 	}
@@ -32,7 +32,7 @@
 		<h1>Feedback Page</h1>
 		<table width="105%">
 			<td>
-				<form name="jsform" style="display:block;">
+				<form name="coolform" style="display:block;">
 				<table><tr>
 				<td align="right">Name:</td>
 				<td><input name="visitorname" size="27"></td>
@@ -46,7 +46,7 @@
 				</textarea>
 				<center>
 				<p>
-				<input type="submit" onClick="ChangeImage()" value="Send Message">
+				<input type="button" onClick="ChangeImage()" value="Send Message">
 				</center>
 				</td>
 				</tr></table>
