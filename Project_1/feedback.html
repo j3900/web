@@ -6,6 +6,15 @@
 <link rel="icon" href="images/favicon.ico" type="image/x-icon">
 <meta charset="UTF-8">
 <title>Nicole and Julia</title>
+
+<script>
+	function ChangeImage() {
+		var images = document.getElementsById('img');
+		var image = images[1];
+		image.src="images/thanks.jpg";
+	}
+</script>
+
 </head>
 <body>
 	<nav> 
@@ -18,7 +27,33 @@
 	<h1 class="center">NAME OF YOUR BLOG HERE</h1>
 	<div class="text-post">
 		<h1>Feedback Page</h1>
-		<p>Here we will put up a box for comments with a send button that will direct the comment to our emails.</p>
+		<table width="105%">
+			<td>
+				<form name="jsform" style="display:block;">
+				<table><tr>
+				<td align="right">Name:</td>
+				<td><input name="visitorname" size="27"></td>
+				</tr><tr>
+				<td align="right">Email:</td>
+				<td><input name="email" size="27"></td>
+				</tr><tr>
+				<td colspan="2">
+				Your message:<br>
+				<textarea name="message" cols="31" rows="6" wrap="soft">
+				</textarea>
+				<center>
+				<p>
+				<input type="submit" onClick="ChangeImage()" value="Send Message">
+				</center>
+				</td>
+				</tr></table>
+				</form>
+			</td>
+			<td><p>Send us a message!</p></td>
+			<td>
+				<img class="image" src="images/suggestionbox.gif">
+			</td>
+		</table>
 	</div>
 	</body>
 </html>
