@@ -11,7 +11,11 @@
 	function ChangeImage() {
 		var images = document.getElementsByTagName('img');
 		var image = images[1];
+		var width = image.width;
+		var height = image.height;
 		image.src="images/thanks.jpg";
+		image.width = width;
+		image.height = height;
 	}
 </script>
 
@@ -24,10 +28,11 @@
 			<li><a href="feedback.html">Feedback</a></li>
 		</ul>
 		<ul>
-			<li><a href="edit.html">Log In</a></li>
+			<li><a href="https://github.com/j3900/web/">Our Github</a></li>
+			<li><a href="edit.html">Admin</a></li>
 		</ul>
 	</nav>
-	<h1 class="center">NAME OF YOUR BLOG HERE</h1>
+	<h1 class="center">BLOGGING PLATFORM PLATFORM!</h1>
 	<div class="post">
 		<h1>Feedback Page</h1>
 		<table width="105%">

@@ -55,12 +55,38 @@ a:hover {
 	color:#8E2A46;
 }
 
+.author {
+	color:#777777;
+	font-style:italic;
+	font-size:14px;
+	margin-left: auto;
+    margin-right: auto;
+    text-align: right;
+}
+
 #searchResult {
 	font-size:16px;
 	color:#777777;
 }
 
 #searchResult:hover {
+	color:#8E2A46;
+}
+
+h2 a {
+	color:#666666;
+}
+
+ol {
+	font-size:14px;
+}
+
+ol li {
+	padding:5px;
+	color:#000000;
+}
+
+h2 a:hover {
 	color:#8E2A46;
 }
 
@@ -81,9 +107,12 @@ a:hover {
     width:auto\9;
 }
 
-nav ul+ul li {
+nav ul+ul {
 	position:fixed;
 	bottom:1%;
+}
+
+nav ul+ul li {
 	font-size:16px;
 }
 
