@@ -17,10 +17,12 @@ ul {
 	list-style: none;
 }
 
+* {
+	font-family: "Big Caslon", "Book Antiqua", "Palatino Linotype", Georgia, serif;
+}
 
 nav ul li{
 	color: #FFFFFF;
-	font-family: "Big Caslon", "Book Antiqua", "Palatino Linotype", Georgia, serif;
 	font-size: 20px;
 	margin-left: -18px;
 }
