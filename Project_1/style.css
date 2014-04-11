@@ -33,7 +33,7 @@ a:hover {
 	color: #DDDDDD;
 }
 
-.text-post {
+.post {
 	background: #FFFFFF;
 	border: 2px inset #C2174A;
 	border-radius: 7px;
@@ -45,15 +45,14 @@ a:hover {
 	padding:20px;
 }
 
-.image-post {
-	background: #FFFFFF;
-	border: 2px inset #4A96AD;
-	border-radius: 7px;
-	box-shadow: -4px 4px 10px -3px #6666A3;
-	margin-left: 175px;
-	margin-right: 100px;
-	margin-bottom: 25px;
+.post a {
 	padding:20px;
+	font-size:14px;
+	color:#777777;
+}
+
+.post a:hover {
+	color:#8E2A46;
 }
 
 .center {
