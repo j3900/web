@@ -1,26 +1,51 @@
-Nicole Felch and Julia Jacobs
+BLOGGING PLATFORM PLATFORM! Design Document - Nicole Felch and Julia Jacobs
 
-Mission Statement:
-	This is just a design of a blog for other people or ourselves to potentially use, so it is currently filled with nonsense.
-
-Major Design Points:
-	The site design consists of a consistent layout through all pages, with a purple navigation bar to the left with a few links and a logo, then the rest of the page is a scrollable area that has white rounded boxes filled with content that are surrounded by gray space.
+	The goal of this site is to present a generic version of a no-frills, sort of "old school"-influenced blogging platform.
+	The site is navigated through a sort of "90s style" floating sidebar on the left, around which the rest of the site's layout is balanced.
+	Floating "post" objects on the opposite side help to preserve this balance. Our version uses a unified, calm color scheme, but in theory a deployed version would include tools for customizing the layout (under Admin settings).
+	
+	One of the more "modern" features added into the blog system is the current "tag" form of navigation.
+	Beyond the generic "home" button, that shows all posts, one can click on a tag of a post and filter the posts, so only posts with that tag are shown.
+	Had we been able to get a handle on forms a bit better, we also planned to add a tag search box to the nav bar, which would be able to search for multiple tags at once.
+	
 
 Required Elements:
 	Style sheet:
-		Our site contains a single style sheet that uses all kinds of selectors. Most importantly, the nav and list within’s selectors, which style the navigation bar, the text-post and image-post classes which style text posts and image posts differently, for example, they have different borders.
+		Our site contains a single style sheet that uses all kinds of selectors.
+		Class selectors are used to style posts into blocks, id selectors style the tag searching text as well as footer formatting.
+		Many standard and nested selectors are also used.
 
 	Navigation:
-		Our site uses a left hand sidebar navigation, with links to Home and 		Feedback pages. The pencil in the navigation bar also serves as a link to the home 	page.
+		Our site uses a left hand sidebar navigation, with links to Home and Feedback pages. The pencil in the navigation bar also serves as a link to the home page.
+		The bottom of the bar includes a link to our github that we used for development, as well as the blog administration area.
+		Posts on our blogging platform can have "tags" indicating their topic. When a tag under a post is clicked, the posts in the list will be filtered to only show ones with this tag.
+		This helps aid more precise navigation of the post list.
 	
 	Structured layout:
 		Our layout is the same for every page: a purple side navigation bar on the left and white blocks of content in the main area which is a light gray. The larger content area scrolls while the navigation stays put.
+		In terms of filtering through a sea of posts - that where the tagging system comes in.
 
 	JavaScript:
-		We intend to use JavaScript in our Feedback page in order for the user to 	send us feedback by email easily
+		JS is used by the tag system to filter posts. When a tag is clicked, it passes its contents as a parameter to a method that searches all posts' children for that tag.
+		If the post doesn't have that tag, it's hidden from the user, and a message is altered to show a little search result text blob for that tag.
+		Upon clicking this text, the page will refresh, and all posts will be shown again.
+		
+		JS is also used on the "Feedback Submission" form. This form would act as a vehicle for feedback to the blogger from the viewer.
+		JS is used to swap out the image from a "suggestion box" to a "thank you!" image, to thank the user after they have submitted their feedback.
+	
+		There were a large number of areas that were going to be entirely JS constructions, but where we ended up scrapping it due to complications.
+		The Nav bar, for example, was going to be injected into pages via JavaScript without having to bother copypasting it into each page every time when we wanted to edit its contents.
+		Unfortunately, due to various issues, things like this didn't end up making it into the final version of the project.
 	
 	Images:
-		This site will use lots of images as filler for our “posts”. Right now there is just one cat. Another image we use is the pencil that serves as a logo for the site. Bothe images obtained from http://www.freestockphotos.biz/
-	
-	Links:
+		Posts can contain any variety of objects, including images. A logo image exists in the sidebar and points to home.
+		In posts, images dynamically scale to the post size and window size - We Authors both have very different preferences when it comes to how we scale our browsing windows, 
+		so making sure the site looked nice at any size is important to us.	
 		
+	Links:
+		All image links on posts are internal, while clicking them points to their external source (for images we did not create ourselves).
+		Navigationally, all links are relative.
+		An external link of ours, the github link, is located in the nav bar on the side.
+		
+		Links in the red nav bar start white and become grey when moused over, while links on the white main area are grey and turn red when moused over.
+		We felt this was stylistically sensical and consistent.
